@@ -23,7 +23,7 @@ function App() {
   }
 
   function cancelAddTaskHandler() {
-    setIsAddingTask(true);
+    setIsAddingTask(false);
   }
 
   function addTaskHandler(taskData) {
